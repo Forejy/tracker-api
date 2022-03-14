@@ -7,7 +7,7 @@ const { installHandler } = require('./api_handler');
 const { connectToDb } = require('./db');
 const auth = require('./auth');
 
-const port = process.env.API_SERVER_PORT || 3000;
+const port = process.env.PORT || 3000;
 
 const app = express();
 app.use(cookieParser()); // Parse the Cookie header on the request and expose (pas besoin d'aller le chercher (comme une vitrine)) the cookie data as the property req.cookies
