@@ -1,0 +1,43 @@
+{
+  "name": "pro-mern-stack-2-api",
+  "version": "1.0.0",
+  "description": "Pro MERN Stack (2nd Edition) API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w . -w .env -e js,graphql server.js",
+    "lint": "eslint .  --ignore-pattern scripts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Dans le dossier parent"
+  },
+  "keywords": [
+    "Installation",
+    "d'un",
+    "projet",
+    "avec",
+    "la",
+    "MERN",
+    "stack"
+  ],
+  "author": "Forejy",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.2",
+    "google-auth-library": "^2.0.2",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.7.3",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
